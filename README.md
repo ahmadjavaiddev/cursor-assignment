@@ -1,6 +1,8 @@
 # Cursor Website Recreation
 
 This project is a recreation of the Cursor website, focusing on the visual design and layout of key sections.
+<!-- Link of live website -->
+https://cursor-assignment-eta.vercel.app
 
 ## Recreated Sections
 
