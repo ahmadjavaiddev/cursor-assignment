@@ -1,0 +1,37 @@
+.logos-section {
+  padding: 60px 40px;
+  background: var(--color-site-bg);
+}
+
+.logos-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.logos-container div {
+  padding: 30px 20px;
+  background-color: var(--color-card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  transition: all var(--transition-fast);
+}
+
+.logos-container div:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.company-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}

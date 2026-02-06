@@ -1,0 +1,85 @@
+.frontier-section {
+  padding: 100px 80px 120px;
+}
+
+.frontier-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.frontier-heading {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32.5px;
+  color: var(--color-text);
+  margin-bottom: 40px;
+}
+
+.frontier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.frontier-card {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--color-card-bg);
+  transition: border-color var(--transition-fast);
+}
+
+.frontier-card:hover {
+  border-color: var(--color-border-hover);
+}
+
+.frontier-card-content {
+  padding: 20px 20px 16px;
+}
+
+.frontier-card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.frontier-card-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-card-paragraph);
+  margin-bottom: 16px;
+}
+
+.frontier-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-card-link);
+  transition: all var(--transition-fast);
+}
+
+.frontier-card-link:hover {
+  color: var(--color-card-link-hover);
+  gap: 10px;
+}
+
+.frontier-card-link svg {
+  transition: transform var(--transition-fast);
+}
+
+.frontier-card-link:hover svg {
+  transform: translateX(4px);
+}
+
+.frontier-card-image {
+  padding: 0 20px 20px;
+}
+
+.frontier-card-image img {
+  width: 100%;
+  border-radius: 8px;
+}

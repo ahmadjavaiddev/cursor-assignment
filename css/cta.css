@@ -1,0 +1,44 @@
+.cta-section {
+  padding: 120px 80px 140px;
+}
+
+.cta-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 79.2px;
+  color: var(--color-text);
+  margin-bottom: 32px;
+  letter-spacing: -0.02em;
+}
+
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all var(--transition-fast);
+}
+
+.btn-cta:hover {
+  background: #f0f0f0;
+  transform: translateY(-1px);
+}
+
+.btn-cta svg {
+  transition: transform var(--transition-fast);
+}
+
+.btn-cta:hover svg {
+  transform: translateY(2px);
+}
